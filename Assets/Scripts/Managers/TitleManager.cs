@@ -1,17 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuManager : MonoBehaviour
+public class TitleManager : MonoBehaviour
 {
-    public static bool GameIsPaused;
-    public GameObject pauseMenu;
     public GameObject settingsMenu;
 
     void Start()
     {
         // Make sure settings and pause menus are closed on startup
         CloseSettings();
-        pauseMenu.SetActive(false);
     }
 
     void Update()
@@ -22,28 +19,9 @@ public class MenuManager : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
-            GameIsPaused = !GameIsPaused;
-            PauseGame();
+            QuitGame();
         }
     }
-
-    public void PauseGame()
-    {
-        if (GameIsPaused)
-        {
-            Time.timeScale = 0f;
-            AudioListener.pause = true;
-        }
-        else
-        {
-            Time.timeScale = 1;
-            AudioListener.pause = false;
-        }
-
-        pauseMenu.SetActive(!pauseMenu.activeSelf);
-    }
-
-    // use if (!PauseControl.GameIsPaused) {} to disable inputs
 
 
     // Method to load a new scene by id
@@ -66,7 +44,6 @@ public class MenuManager : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quit");
         Application.Quit();
     }
 

@@ -37,6 +37,11 @@ public class SFXManager : MonoBehaviour
         float clipLength = audioSource.clip.length / Mathf.Abs(audioSource.pitch);
         Destroy(audioSource.gameObject, clipLength);
     }
+
+    public void PlayUIClick(AudioClip sfxClip)
+    {
+        PlaySFXClip(sfxClip, transform, ignorePause: true, volume: 1.0f);
+    }
 }
 
 
