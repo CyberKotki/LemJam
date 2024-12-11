@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9fcfff5e03d2148409d16805964034f7
+guid: 59a607c49281f454cab36de1ef897100
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1006053501206894653
-    second: workshop_blur_0
+      213: 5524758506151885399
+    second: pause-submenu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: workshop_blur_0
+      name: pause-submenu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2880
-        height: 1620
+        x: 22
+        y: 12
+        width: 1299
+        height: 1086
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c76683cba7c902f0800000000000000
-      internalID: -1006053501206894653
+      spriteID: 75a30050792ebac40800000000000000
+      internalID: 5524758506151885399
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      workshop_blur_0: -1006053501206894653
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
