@@ -91,7 +91,7 @@ public class SpawPointEffector : MonoBehaviour
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
         distances.Add(distanceFromClick);
 
-        if(distanceFromClick< 0.85)// to bedzie zmieniaæ potems
+        if(distanceFromClick< 1)// to bedzie zmieniaæ potems
         {
 
             spawPointy.Remove(closestSpawPoint);
@@ -107,7 +107,7 @@ public class SpawPointEffector : MonoBehaviour
 
         if (healthPoints <= 0 || spawPointy.Count <= 0)
         {
-            float accuracy = distances.Select(x => 1 - Math.Clamp(x, 0, 1) * 1.3f).Sum() / distances.Count * 100;
+            float accuracy = distances.Select(x => 1f - Math.Clamp(x, 0, 1) * 1f).Sum() / distances.Count * 100;
             Debug.Log("Accuracy: " + accuracy);
             FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }

@@ -21,8 +21,10 @@ public class ResultScreen : MonoBehaviour
         }
     }
 
-    public void Show(LevelData data, float accuracy) {
-        _accuracyText.text = accuracy + "%";
+    public void Show(float accuracy) {
+        FindAnyObjectByType<PauseManager>()?.OpenResults();
+
+        _accuracyText.text = Mathf.Round(accuracy) + "%";
         
         if (accuracy > screw3)
         {

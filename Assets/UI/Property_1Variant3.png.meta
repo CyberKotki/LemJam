@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 50b5cdf7f41b4df71b01073df83175bb
+guid: 9b1755b56a113674e87dbdf806b334e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 475303909938491113
-    second: Robot2_noga1_0
+      213: 4440677002142516320
+    second: Property_1Variant3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot2_noga1_0
+      name: Property_1Variant3_0
       rect:
         serializedVersion: 2
-        x: 643
-        y: 738
-        width: 592
-        height: 1632
+        x: 9
+        y: 11
+        width: 732
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eeec38436e989600800000000000000
-      internalID: 475303909938491113
+      spriteID: 06483faa43470ad30800000000000000
+      internalID: 4440677002142516320
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Robot2_noga1_0: 475303909938491113
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
