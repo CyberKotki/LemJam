@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - SpawPointChild
   layers:
   - Default
   - TransparentFX
@@ -11,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - SpawPoint
   - 
   - 
   - 
@@ -49,6 +50,9 @@ TagManager:
     locked: 0
   - name: maska
     uniqueID: 2680412789
+    locked: 0
+  - name: buffer
+    uniqueID: 2586582377
     locked: 0
   m_RenderingLayers:
   - Default
