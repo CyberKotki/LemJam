@@ -11,10 +11,14 @@ public class GameplayLoop : MonoBehaviour
     private SpawPointEffector robot;
     Mask mask;
 
+    private HorizontalLayoutGroup h;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        h = FindAnyObjectByType<HorizontalLayoutGroup>();
+        h?.gameObject.SetActive(false);
         robot = FindAnyObjectByType<SpawPointEffector>();
         mask = FindAnyObjectByType<Mask>();
         if(robot == null) {
@@ -44,7 +48,9 @@ public class GameplayLoop : MonoBehaviour
 
     private IEnumerator StartGame() {
         mask.Close();
-        yield return new WaitForSeconds(1);
+        h?.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4);
+        FindAnyObjectByType<SpawPointEffector>()?.reloadCanvas();
         robot.enabled = true;
     }
 
