@@ -234,6 +234,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1284,7 +1297,54 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot2_0: 2118223333165189086
+      Robot2_1: 7802568875624627810
+      Robot2_10: -1415113380291385565
+      Robot2_11: 3774383516425690881
+      Robot2_12: -5991677698460575160
+      Robot2_13: -3732149738993495681
+      Robot2_14: -478560422786639432
+      Robot2_15: 185755964867202336
+      Robot2_16: -8775992614219719517
+      Robot2_17: 6811999327882091462
+      Robot2_18: -2182450268958023907
+      Robot2_19: -7553153431228083496
+      Robot2_2: -6971479461012262194
+      Robot2_20: 5402203568670683717
+      Robot2_21: 2737783260856419626
+      Robot2_22: 2979908727534021713
+      Robot2_23: 5118225099068821413
+      Robot2_24: 2252863548863005597
+      Robot2_25: -1607877093777455427
+      Robot2_26: 6347417269569447852
+      Robot2_27: -4651532867368588234
+      Robot2_28: -5940643592082523683
+      Robot2_29: 4455246295040681353
+      Robot2_3: 7919582184738977273
+      Robot2_30: -3415435616847207816
+      Robot2_31: -5356164251763249544
+      Robot2_32: 5467986403560180142
+      Robot2_33: 8375477676566447541
+      Robot2_34: 25535728809755452
+      Robot2_35: -5065548365877923407
+      Robot2_36: 4072033578688090649
+      Robot2_37: 3739708428682663825
+      Robot2_38: 2510842182995559571
+      Robot2_39: 2631010691849816004
+      Robot2_4: 790547666970655095
+      Robot2_40: -4833819027461504163
+      Robot2_41: -8448275142961368380
+      Robot2_42: -1419233584282043035
+      Robot2_43: -272458916926319319
+      Robot2_44: -3060761790971734534
+      Robot2_45: -3149052224672151279
+      Robot2_46: -7848627801591378838
+      Robot2_5: -6796420481266659263
+      Robot2_6: 121000892935884253
+      Robot2_7: 8777695343273687926
+      Robot2_8: -1493588649195861042
+      Robot2_9: 9049445149830294700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

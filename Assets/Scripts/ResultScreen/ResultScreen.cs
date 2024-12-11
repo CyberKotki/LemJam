@@ -6,24 +6,13 @@ public class ResultScreen : MonoBehaviour
 {
     public static ResultScreen instance;
 
-    [SerializeField] private float screw1;
-    [SerializeField] private float screw2;
-    [SerializeField] private float screw3;
-    [SerializeField] private string title0;
-    [SerializeField] private string title1;
-    [SerializeField] private string title2;
-    [SerializeField] private string title3;
-
-
-    [Space(10)]
-    [SerializeField] Image panel;
-    [SerializeField] private TextMeshProUGUI _titleText;
-    [SerializeField] private TextMeshProUGUI _levelText;
-    [SerializeField] private HorizontalLayoutGroup _screwContainer;
+    [SerializeField] private float screw1 = 30f;
+    [SerializeField] private float screw2 = 60f;
+    [SerializeField] private float screw3 = 90f;
+    [SerializeField] private GameObject screwObject1;
+    [SerializeField] private GameObject screwObject2;
+    [SerializeField] private GameObject screwObject3;
     [SerializeField] private TextMeshProUGUI _accuracyText;
-    [SerializeField] private Button _nextButton;
-
-    private LevelData _levelData;
 
 
     void Awake() {
@@ -32,45 +21,21 @@ public class ResultScreen : MonoBehaviour
         }
     }
 
-    void Start() {
-        _nextButton.onClick.AddListener(NextLevel);
-    }
-
     public void Show(LevelData data, float accuracy) {
-        panel.gameObject.SetActive(true);
-        _levelText.text = data.title;
-        _accuracyText.text = accuracy.ToString();
-        _levelData = data;
-
-        int screwCount = 0;
-        string title = title0;
-        if(accuracy >= screw1) {
-            title = title1;
-            screwCount++;
+        _accuracyText.text = accuracy + "%";
+        
+        if (accuracy > screw3)
+        {
+            screwObject3.SetActive(true);
         }
-        if(accuracy >= screw2) {
-            screwCount++;
-            title = title2;
+        else if (accuracy >= screw2)
+        {
+            screwObject2.SetActive(true);
         }
-        if(accuracy >= screw3) {
-            screwCount++;
-            title = title3;
+        else if (accuracy >= screw1)
+        {
+            screwObject1.SetActive(true);
         }
-
-        for(int i=0; i<_screwContainer.transform.childCount; i++) {
-            _screwContainer.transform.GetChild(i).gameObject.SetActive(false);
-        }
-
-        for(int i=0; i<screwCount; i++) {
-            _screwContainer.transform.GetChild(i).gameObject.SetActive(true);
-        }
-        _titleText.text = title;
-    }
-
-    void NextLevel() {
-        if(_levelData is not null) {
-            Debug.Log("Next level not implemented! " + _levelData.nextScene);
-            panel.gameObject.SetActive(false);
-        }
+        
     }
 }

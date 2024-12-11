@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -409,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot2_dupka_0: 7481511485886422277
+      Robot2_dupka_1: 2032311869148975616
+      Robot2_dupka_10: -1662819680461482758
+      Robot2_dupka_11: 4329627641296380743
+      Robot2_dupka_2: 3820429054950980042
+      Robot2_dupka_3: -2573426956960106041
+      Robot2_dupka_4: -3150985160341262634
+      Robot2_dupka_5: 3086216909770093330
+      Robot2_dupka_6: -1474867152778930089
+      Robot2_dupka_7: -2439296959256939347
+      Robot2_dupka_8: 658854025713519365
+      Robot2_dupka_9: 4191656302766901227
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
