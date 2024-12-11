@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2f3280b51025e6f42a3108fa259995be
+guid: 32781b0bcacaa25419c501da56232933
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4288646034725211653
-    second: Robot1_nogi1_0
+      213: 2119211411659166311
+    second: Robot1_tors_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot1_nogi1_0
+      name: Robot1_tors_0
       rect:
         serializedVersion: 2
-        x: 249
-        y: 765
-        width: 807
-        height: 1392
+        x: 624
+        y: 2014
+        width: 987
+        height: 1288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50e0f2ba8d4548b30800000000000000
-      internalID: 4288646034725211653
+      spriteID: 76216e30d83f86d10800000000000000
+      internalID: 2119211411659166311
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Robot1_nogi1_0: 4288646034725211653
+      Robot1_tors_0: 2119211411659166311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
