@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7358260664739722984}
   - component: {fileID: 4370548826185567957}
+  - component: {fileID: 5495852595532074935}
   m_Layer: 0
   m_Name: prawareka
   m_TagString: Untagged
@@ -88,6 +89,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5495852595532074935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198592710264186116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef26ccfe7be16499b099cdd9fb4de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missedSpaw: {fileID: 0}
+  perfectSpaw: {fileID: 0}
 --- !u!1 &2439254886400861436
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +128,7 @@ Transform:
   m_GameObject: {fileID: 2439254886400861436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.84, y: 0.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -144,7 +159,7 @@ Transform:
   m_GameObject: {fileID: 2507550555781093086}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.8, y: 2.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -262,7 +277,7 @@ Transform:
   m_GameObject: {fileID: 4562697108112318218}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.01, y: 2.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -365,6 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3534829667606605832}
   - component: {fileID: 5801696446202583184}
+  - component: {fileID: 2776131456726500128}
   m_Layer: 0
   m_Name: prawanoga
   m_TagString: Untagged
@@ -443,6 +459,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2776131456726500128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487359335584741999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef26ccfe7be16499b099cdd9fb4de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missedSpaw: {fileID: 0}
+  perfectSpaw: {fileID: 0}
 --- !u!1 &6531916968621063252
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3635162863539915314}
   - component: {fileID: 2850388695842682451}
+  - component: {fileID: 6708309552281240645}
   m_Layer: 0
   m_Name: lewareka
   m_TagString: Untagged
@@ -531,6 +562,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6708309552281240645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531916968621063252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef26ccfe7be16499b099cdd9fb4de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missedSpaw: {fileID: 0}
+  perfectSpaw: {fileID: 0}
 --- !u!1 &6769091764576770465
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +587,7 @@ GameObject:
   - component: {fileID: 4483542893545909237}
   - component: {fileID: 1839525456540196840}
   - component: {fileID: 4771614131210632257}
+  - component: {fileID: 2434472602258503511}
   m_Layer: 0
   m_Name: glowa
   m_TagString: Untagged
@@ -657,6 +703,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.000000029802322, y: 0.00000047683716}
   m_Radius: 0.6900002
+--- !u!114 &2434472602258503511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6769091764576770465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef26ccfe7be16499b099cdd9fb4de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missedSpaw: {fileID: 0}
+  perfectSpaw: {fileID: 0}
 --- !u!1 &7063442865533327390
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +742,7 @@ Transform:
   m_GameObject: {fileID: 7063442865533327390}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.06, y: -0.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -698,6 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3899377378056561828}
   - component: {fileID: 8551120178088197628}
+  - component: {fileID: 3422770771182303462}
   m_Layer: 0
   m_Name: lewanoga
   m_TagString: Untagged
@@ -776,6 +837,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3422770771182303462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776212238088319263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef26ccfe7be16499b099cdd9fb4de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missedSpaw: {fileID: 0}
+  perfectSpaw: {fileID: 0}
 --- !u!1 &7818874047434227572
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +944,7 @@ Transform:
   m_GameObject: {fileID: 8823016792660775472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.82, y: 1.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
