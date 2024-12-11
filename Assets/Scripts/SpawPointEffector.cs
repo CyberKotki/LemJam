@@ -14,6 +14,8 @@ public class SpawPointEffector : MonoBehaviour
     private Canvas canvas;
 
     [SerializeField] private int healthPoints;
+    [SerializeField] private Spark sparkBadPref;
+    [SerializeField] private Spark sparkGoodPref;
     private Camera mainCamera;
     public List<GameObject> spawPointy = new();
     public List<GameObject> spawed = new();
@@ -44,7 +46,7 @@ public class SpawPointEffector : MonoBehaviour
     }
 
     public void SpawClick()
-    {   
+    {
         float distanceFromClick = float.MaxValue;
         GameObject closestSpawPoint = null;
         foreach (GameObject spawPoint in spawPointy)
@@ -60,22 +62,25 @@ public class SpawPointEffector : MonoBehaviour
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
         distances.Add(distanceFromClick);
 
-        if(distanceFromClick<0.7)// to bedzie zmienia� potems
+        if(distanceFromClick<1.5)// to bedzie zmienia� potems
         {
             spawPointy.Remove(closestSpawPoint);
             spawed.Add(closestSpawPoint);
+            Instantiate(sparkGoodPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
         }
         else
         {
             healthPoints -= 1;
+            Instantiate(sparkBadPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
         }
 
         if (healthPoints <= 0 || spawPointy.Count <= 0)
         {
-            float accuracy = distances.Select(x => 1 - Math.Clamp(x, 0, 1)).Sum() / distances.Count * 100;
+            float accuracy = distances.Select(x => 1 - Math.Clamp(x, 0, 1) * 1.3f).Sum() / distances.Count * 100;
             Debug.Log("Accuracy: " + accuracy);
             FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }
+        
         
     }
 
