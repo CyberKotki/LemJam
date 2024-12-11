@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: czescirobota
+    uniqueID: 122346201
+    locked: 0
+  - name: SpawPointery
+    uniqueID: 4272660139
+    locked: 0
   - name: biureczko
     uniqueID: 1078560689
     locked: 0
@@ -53,6 +59,9 @@ TagManager:
     locked: 0
   - name: buffer
     uniqueID: 2586582377
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 2226333647
     locked: 0
   m_RenderingLayers:
   - Default

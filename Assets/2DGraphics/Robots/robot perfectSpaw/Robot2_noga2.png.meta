@@ -1,0 +1,3080 @@
+fileFormatVersion: 2
+guid: 0cdfb3f269729df43bd03fbe154c76c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3446499156093442036
+    second: Robot2_noga2_0
+  - first:
+      213: 7178569665869941470
+    second: Robot2_noga2_1
+  - first:
+      213: -5432234890308067008
+    second: Robot2_noga2_2
+  - first:
+      213: -2464511505674118560
+    second: Robot2_noga2_3
+  - first:
+      213: -8202199910372236232
+    second: Robot2_noga2_4
+  - first:
+      213: 1804643704374075654
+    second: Robot2_noga2_5
+  - first:
+      213: 4018438795444719329
+    second: Robot2_noga2_6
+  - first:
+      213: 5047419814149815069
+    second: Robot2_noga2_7
+  - first:
+      213: 7150798936975354869
+    second: Robot2_noga2_8
+  - first:
+      213: -3919455686748922329
+    second: Robot2_noga2_9
+  - first:
+      213: -549831789697830988
+    second: Robot2_noga2_10
+  - first:
+      213: 7089154910573435874
+    second: Robot2_noga2_11
+  - first:
+      213: 2480196443459473593
+    second: Robot2_noga2_12
+  - first:
+      213: -1153497358023165377
+    second: Robot2_noga2_13
+  - first:
+      213: -2702317898726143515
+    second: Robot2_noga2_14
+  - first:
+      213: 4677033312885185710
+    second: Robot2_noga2_15
+  - first:
+      213: -3540766853535840679
+    second: Robot2_noga2_16
+  - first:
+      213: 1970138719388193548
+    second: Robot2_noga2_17
+  - first:
+      213: -6222975039515645283
+    second: Robot2_noga2_18
+  - first:
+      213: 443198636085637525
+    second: Robot2_noga2_19
+  - first:
+      213: -4044482575723341636
+    second: Robot2_noga2_20
+  - first:
+      213: -5803834627568452548
+    second: Robot2_noga2_21
+  - first:
+      213: 217291990591665257
+    second: Robot2_noga2_22
+  - first:
+      213: -3062202589900819798
+    second: Robot2_noga2_23
+  - first:
+      213: 4851206395670875987
+    second: Robot2_noga2_24
+  - first:
+      213: -56375306774748699
+    second: Robot2_noga2_25
+  - first:
+      213: 5890959018087005201
+    second: Robot2_noga2_26
+  - first:
+      213: -2637229395216092969
+    second: Robot2_noga2_27
+  - first:
+      213: 6811256150171541532
+    second: Robot2_noga2_28
+  - first:
+      213: -2387755915605696142
+    second: Robot2_noga2_29
+  - first:
+      213: -8408469540665130758
+    second: Robot2_noga2_30
+  - first:
+      213: -2099402780429386881
+    second: Robot2_noga2_31
+  - first:
+      213: -6415355786113168888
+    second: Robot2_noga2_32
+  - first:
+      213: -7456474935101935720
+    second: Robot2_noga2_33
+  - first:
+      213: -6394418507090069628
+    second: Robot2_noga2_34
+  - first:
+      213: 4571455611732916618
+    second: Robot2_noga2_35
+  - first:
+      213: 537388948609844604
+    second: Robot2_noga2_36
+  - first:
+      213: -3889957237095246656
+    second: Robot2_noga2_37
+  - first:
+      213: 8858162621918546137
+    second: Robot2_noga2_38
+  - first:
+      213: 1554988995274457166
+    second: Robot2_noga2_39
+  - first:
+      213: 6333956525923716218
+    second: Robot2_noga2_40
+  - first:
+      213: 6366435967672870994
+    second: Robot2_noga2_41
+  - first:
+      213: 1309472642406631979
+    second: Robot2_noga2_42
+  - first:
+      213: -859483091722584622
+    second: Robot2_noga2_43
+  - first:
+      213: -656856112056620848
+    second: Robot2_noga2_44
+  - first:
+      213: 305387013217903120
+    second: Robot2_noga2_45
+  - first:
+      213: 7447538379078417863
+    second: Robot2_noga2_46
+  - first:
+      213: -4920698103538212311
+    second: Robot2_noga2_47
+  - first:
+      213: 4407829938393820204
+    second: Robot2_noga2_48
+  - first:
+      213: -6402751025321227076
+    second: Robot2_noga2_49
+  - first:
+      213: 2763417514800897847
+    second: Robot2_noga2_50
+  - first:
+      213: -8159184244957612383
+    second: Robot2_noga2_51
+  - first:
+      213: 8702789182023011155
+    second: Robot2_noga2_52
+  - first:
+      213: 8910724852117336025
+    second: Robot2_noga2_53
+  - first:
+      213: 6531471149189218990
+    second: Robot2_noga2_54
+  - first:
+      213: 5774605663397941518
+    second: Robot2_noga2_55
+  - first:
+      213: 4197482641158886808
+    second: Robot2_noga2_56
+  - first:
+      213: -2057908655498705453
+    second: Robot2_noga2_57
+  - first:
+      213: -4722760349290830441
+    second: Robot2_noga2_58
+  - first:
+      213: 6966077754939382005
+    second: Robot2_noga2_59
+  - first:
+      213: 5434345696749487114
+    second: Robot2_noga2_60
+  - first:
+      213: -3093298886654851327
+    second: Robot2_noga2_61
+  - first:
+      213: -3592781369043310849
+    second: Robot2_noga2_62
+  - first:
+      213: -8732392678700453340
+    second: Robot2_noga2_63
+  - first:
+      213: 1121491260627018010
+    second: Robot2_noga2_64
+  - first:
+      213: -8217185814783795511
+    second: Robot2_noga2_65
+  - first:
+      213: 3125079657524216399
+    second: Robot2_noga2_66
+  - first:
+      213: 7765047543151521809
+    second: Robot2_noga2_67
+  - first:
+      213: -4791565356972168198
+    second: Robot2_noga2_68
+  - first:
+      213: -4606676332883854479
+    second: Robot2_noga2_69
+  - first:
+      213: -4574974296256460655
+    second: Robot2_noga2_70
+  - first:
+      213: 8987502814010368502
+    second: Robot2_noga2_71
+  - first:
+      213: -529527138312287984
+    second: Robot2_noga2_72
+  - first:
+      213: -8093545929670082825
+    second: Robot2_noga2_73
+  - first:
+      213: 8846497906916040378
+    second: Robot2_noga2_74
+  - first:
+      213: 3213622155407571263
+    second: Robot2_noga2_75
+  - first:
+      213: 2668084598612315654
+    second: Robot2_noga2_76
+  - first:
+      213: -5417997143903670431
+    second: Robot2_noga2_77
+  - first:
+      213: -3853363246970415049
+    second: Robot2_noga2_78
+  - first:
+      213: -348330177949247277
+    second: Robot2_noga2_79
+  - first:
+      213: -5507932916307723363
+    second: Robot2_noga2_80
+  - first:
+      213: -3875626213327169528
+    second: Robot2_noga2_81
+  - first:
+      213: -4683912606895721394
+    second: Robot2_noga2_82
+  - first:
+      213: -4352398484861481310
+    second: Robot2_noga2_83
+  - first:
+      213: 548687028364553967
+    second: Robot2_noga2_84
+  - first:
+      213: -6704510632636053323
+    second: Robot2_noga2_85
+  - first:
+      213: 8777858988484184661
+    second: Robot2_noga2_86
+  - first:
+      213: 1279280597534260421
+    second: Robot2_noga2_87
+  - first:
+      213: -7667722749439274842
+    second: Robot2_noga2_88
+  - first:
+      213: 4073298920668450840
+    second: Robot2_noga2_89
+  - first:
+      213: -2250404436662181423
+    second: Robot2_noga2_90
+  - first:
+      213: 7370342184092931061
+    second: Robot2_noga2_91
+  - first:
+      213: -5206603080872459233
+    second: Robot2_noga2_92
+  - first:
+      213: 6542937158200038863
+    second: Robot2_noga2_93
+  - first:
+      213: -6569606991972357513
+    second: Robot2_noga2_94
+  - first:
+      213: -8591354140155704855
+    second: Robot2_noga2_95
+  - first:
+      213: -573719352611926259
+    second: Robot2_noga2_96
+  - first:
+      213: -2764483496919129102
+    second: Robot2_noga2_97
+  - first:
+      213: 6014216977085518778
+    second: Robot2_noga2_98
+  - first:
+      213: 1072209423091000094
+    second: Robot2_noga2_99
+  - first:
+      213: 7436290179376101368
+    second: Robot2_noga2_100
+  - first:
+      213: 1653384526522159696
+    second: Robot2_noga2_101
+  - first:
+      213: -6431506061561025101
+    second: Robot2_noga2_102
+  - first:
+      213: -4593202529473215740
+    second: Robot2_noga2_103
+  - first:
+      213: 8657314916236111755
+    second: Robot2_noga2_104
+  - first:
+      213: 1332464556578555986
+    second: Robot2_noga2_105
+  - first:
+      213: 6559356864867955136
+    second: Robot2_noga2_106
+  - first:
+      213: -7987918172611345429
+    second: Robot2_noga2_107
+  - first:
+      213: 9104224065061380908
+    second: Robot2_noga2_108
+  - first:
+      213: 1577588323313722871
+    second: Robot2_noga2_109
+  - first:
+      213: 7098154360783050708
+    second: Robot2_noga2_110
+  - first:
+      213: -3923736220501046224
+    second: Robot2_noga2_111
+  - first:
+      213: -1238243911817499842
+    second: Robot2_noga2_112
+  - first:
+      213: 9108967265338170312
+    second: Robot2_noga2_113
+  - first:
+      213: -8858173229148652566
+    second: Robot2_noga2_114
+  - first:
+      213: -7896715900507018537
+    second: Robot2_noga2_115
+  - first:
+      213: 8799275895444083926
+    second: Robot2_noga2_116
+  - first:
+      213: -7026633869360911780
+    second: Robot2_noga2_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot2_noga2_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2771
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08ed5227439b20d0800000000000000
+      internalID: -3446499156093442036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2796
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda8291d3176f9360800000000000000
+      internalID: 7178569665869941470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2806
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04164b20623dc94b0800000000000000
+      internalID: -5432234890308067008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2777
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a5e67d7db4ccdd0800000000000000
+      internalID: -2464511505674118560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2780
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834a58d73aeeb2e80800000000000000
+      internalID: -8202199910372236232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2796
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601ac5143e16b0910800000000000000
+      internalID: 1804643704374075654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2750
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee812a3bcc54c730800000000000000
+      internalID: 4018438795444719329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2767
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bfaae14990c0640800000000000000
+      internalID: 5047419814149815069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2769
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb28a22fbdbc3360800000000000000
+      internalID: 7150798936975354869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2763
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e127ea1db4b99c0800000000000000
+      internalID: -3919455686748922329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2752
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfe7d086ea9e58f0800000000000000
+      internalID: -549831789697830988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2769
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb127ac4dcb16260800000000000000
+      internalID: 7089154910573435874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2771
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0d691568d6b6220800000000000000
+      internalID: 2480196443459473593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2755
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a7dada344fdffe0800000000000000
+      internalID: -1153497358023165377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2721
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e98f3840307f7ad0800000000000000
+      internalID: -2702317898726143515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_15
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 2765
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac9031a40928e040800000000000000
+      internalID: 4677033312885185710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2751
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956c4867e4bacdec0800000000000000
+      internalID: -3540766853535840679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2746
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03506f1ab6575b10800000000000000
+      internalID: 1970138719388193548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2755
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a2c8b1c2d83a9a0800000000000000
+      internalID: -6222975039515645283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2732
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59172d4bfce862600800000000000000
+      internalID: 443198636085637525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_20
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2751
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8d0c5a68c1fd7c0800000000000000
+      internalID: -4044482575723341636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2737
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cbba00823a47fa0800000000000000
+      internalID: -5803834627568452548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2724
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964f0c70ae9f30300800000000000000
+      internalID: 217291990591665257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2732
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa23eaef7fed085d0800000000000000
+      internalID: -3062202589900819798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_24
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2738
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fc01a9382f25340800000000000000
+      internalID: 4851206395670875987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2746
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1669905f6b73ff0800000000000000
+      internalID: -56375306774748699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2724
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cb57be304e0c150800000000000000
+      internalID: 5890959018087005201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2726
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d03de276dda66bd0800000000000000
+      internalID: -2637229395216092969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2717
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c106b298161768e50800000000000000
+      internalID: 6811256150171541532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_29
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2721
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2712cf745acfcded0800000000000000
+      internalID: -2387755915605696142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_30
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2732
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af086f3b08d1f4b80800000000000000
+      internalID: -8408469540665130758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_31
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2728
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bf9085b4c6dd2e0800000000000000
+      internalID: -2099402780429386881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2708
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a4afc07e318f6a0800000000000000
+      internalID: -6415355786113168888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_33
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2715
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f25a87d87458890800000000000000
+      internalID: -7456474935101935720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_34
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2715
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48776b33f367247a0800000000000000
+      internalID: -6394418507090069628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_35
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2713
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a897ec388a2117f30800000000000000
+      internalID: 4571455611732916618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_36
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2715
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c754c1cc660357700800000000000000
+      internalID: 537388948609844604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2705
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c45a73b088140ac0800000000000000
+      internalID: -3889957237095246656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_38
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2669
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8091ad8f38eea70800000000000000
+      internalID: 8858162621918546137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_39
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2691
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40c9f4a04e649510800000000000000
+      internalID: 1554988995274457166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2683
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c437ec6ebb6e750800000000000000
+      internalID: 6333956525923716218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2696
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258696228cf1a5850800000000000000
+      internalID: 6366435967672870994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_42
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2697
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4dbd2e6e2c2210800000000000000
+      internalID: 1309472642406631979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_43
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2692
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddbb6b8ea08214f0800000000000000
+      internalID: -859483091722584622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2699
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d82254a8d062e6f0800000000000000
+      internalID: -656856112056620848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2682
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012eed9ded3fc3400800000000000000
+      internalID: 305387013217903120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_46
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2674
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdbe0072b8fa5760800000000000000
+      internalID: 7447538379078417863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_47
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2701
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922aaa3552b26bbb0800000000000000
+      internalID: -4920698103538212311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2692
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cab4ca9f1cb2d30800000000000000
+      internalID: 4407829938393820204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_49
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2657
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcc57e9ddbd427a0800000000000000
+      internalID: -6402751025321227076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_50
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2674
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fdcc7a691a95620800000000000000
+      internalID: 2763417514800897847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_51
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2676
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6765e8821c4ce80800000000000000
+      internalID: -8159184244957612383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_52
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2680
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b0895d6a486c870800000000000000
+      internalID: 8702789182023011155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_53
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2674
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfe2bdba0149ab70800000000000000
+      internalID: 8910724852117336025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_54
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2653
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2c22ca76274aa50800000000000000
+      internalID: 6531471149189218990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_55
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2661
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e011bc47145832050800000000000000
+      internalID: 5774605663397941518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_56
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2661
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895d4211934704a30800000000000000
+      internalID: 4197482641158886808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_57
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2670
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d54cc82bf6d073e0800000000000000
+      internalID: -2057908655498705453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_58
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2657
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795683d0c72657eb0800000000000000
+      internalID: -4722760349290830441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_59
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2518
+        width: 53
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f899ec6fca7ca060800000000000000
+      internalID: 6966077754939382005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_60
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2622
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a040d696e9caa6b40800000000000000
+      internalID: 5434345696749487114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_61
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2563
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10783d43d056215d0800000000000000
+      internalID: -3093298886654851327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_62
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2647
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff628865160e32ec0800000000000000
+      internalID: -3592781369043310849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_63
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 2557
+        width: 65
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42276daff1f40d680800000000000000
+      internalID: -8732392678700453340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_64
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2630
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11e0601c56509f00800000000000000
+      internalID: 1121491260627018010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_65
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2607
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cede68b901b6fd80800000000000000
+      internalID: -8217185814783795511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_66
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2549
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42c78124638e5b20800000000000000
+      internalID: 3125079657524216399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_67
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2636
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110f099799df2cb60800000000000000
+      internalID: 7765047543151521809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2557
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb2b93d1b0f08db0800000000000000
+      internalID: -4791565356972168198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_69
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b324f484cc110c0800000000000000
+      internalID: -4606676332883854479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2568
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1984717ed1d6280c0800000000000000
+      internalID: -4574974296256460655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2543
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f169e601360abc70800000000000000
+      internalID: 8987502814010368502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_72
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2649
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01987fd8fddb6a8f0800000000000000
+      internalID: -529527138312287984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_73
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2576
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7feb4b0cbd2fdaf80800000000000000
+      internalID: -8093545929670082825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_74
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2543
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe97ffb9f215ca70800000000000000
+      internalID: 8846497906916040378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_75
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2645
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b467e254199c20800000000000000
+      internalID: 3213622155407571263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_76
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2556
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e4afa6ec0f60520800000000000000
+      internalID: 2668084598612315654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_77
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2560
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f6a8bad486fc4b0800000000000000
+      internalID: -5417997143903670431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_78
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2640
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73858c9fa8a168ac0800000000000000
+      internalID: -3853363246970415049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_79
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2622
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d859c67c8b7a2bf0800000000000000
+      internalID: -348330177949247277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_80
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2599
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bfbc4e134ef83b0800000000000000
+      internalID: -5507932916307723363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_81
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2645
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80811703e72073ac0800000000000000
+      internalID: -3875626213327169528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2530
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44b10bec466ffeb0800000000000000
+      internalID: -4683912606895721394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_83
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2547
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae02e453ac2993c0800000000000000
+      internalID: -4352398484861481310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_84
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2537
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feea88af1f35d9700800000000000000
+      internalID: 548687028364553967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_85
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2541
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b806e40a1bc4f2a0800000000000000
+      internalID: -6704510632636053323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_86
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2539
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ac1113e3831d970800000000000000
+      internalID: 8777858988484184661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_87
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2538
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc3410fceae0c110800000000000000
+      internalID: 1279280597534260421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_88
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2519
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a09d73e8c6c69590800000000000000
+      internalID: -7667722749439274842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_89
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2501
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810dc6e79c3478830800000000000000
+      internalID: 4073298920668450840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_90
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2522
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1a9c78615f4c0e0800000000000000
+      internalID: -2250404436662181423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2522
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f39febaa27b84660800000000000000
+      internalID: 7370342184092931061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_92
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2493
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14842e651e6eb7b0800000000000000
+      internalID: -5206603080872459233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_93
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2520
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5973eedae2dca50800000000000000
+      internalID: 6542937158200038863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2491
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aa0918f3114d4a0800000000000000
+      internalID: -6569606991972357513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_95
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2512
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e90070bde065c880800000000000000
+      internalID: -8591354140155704855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_96
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2483
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f8ccad94db908f0800000000000000
+      internalID: -573719352611926259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_97
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2501
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3a4ba08e492a9d0800000000000000
+      internalID: -2764483496919129102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_98
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2472
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab35e49d97ac67350800000000000000
+      internalID: 6014216977085518778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2487
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e136a2c1ac041ee00800000000000000
+      internalID: 1072209423091000094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2460
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7307cd482033760800000000000000
+      internalID: 7436290179376101368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_101
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2468
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0521b74877002f610800000000000000
+      internalID: 1653384526522159696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_102
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2478
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd22e50053beb6a0800000000000000
+      internalID: -6431506061561025101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_103
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2437
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403c251a2aaa140c0800000000000000
+      internalID: -4593202529473215740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_104
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fa1f24c06f42870800000000000000
+      internalID: 8657314916236111755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2464
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258c9aa547ddd7210800000000000000
+      internalID: 1332464556578555986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_106
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2445
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1797dc054870b50800000000000000
+      internalID: 6559356864867955136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_107
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2441
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be30d9a6eb6352190800000000000000
+      internalID: -7987918172611345429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_108
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2451
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23eb890d83b85e70800000000000000
+      internalID: 9104224065061380908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_109
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2441
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f52becb838b4e510800000000000000
+      internalID: 1577588323313722871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_110
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2412
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d71d5398c5b18260800000000000000
+      internalID: 7098154360783050708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_111
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2372
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c83b042b61c89c0800000000000000
+      internalID: -3923736220501046224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_112
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2385
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3be3d209bfd0dee0800000000000000
+      internalID: -1238243911817499842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_113
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2373
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb9429677d896e70800000000000000
+      internalID: 9108967265338170312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_114
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2345
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb38b57162711580800000000000000
+      internalID: -8858173229148652566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_115
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2339
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7daa9122aba396290800000000000000
+      internalID: -7896715900507018537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_116
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1243
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d41a9c6ece4d1a70800000000000000
+      internalID: 8799275895444083926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_noga2_117
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1072
+        width: 934
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aa30a79b16c7e90800000000000000
+      internalID: -7026633869360911780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
