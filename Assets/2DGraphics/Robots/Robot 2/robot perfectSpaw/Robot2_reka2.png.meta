@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot2_reka2_0: -8123943049579931988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
