@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dabeeb34bdf803de68ab47d26c6fd3f6
+guid: ffe754ba6f3f73d4da3204d135fbbcac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2221616182191107254
-    second: Wire_0
+      213: 8070626911401012582
+    second: Robot3_noga2.1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wire_0
+      name: Robot3_noga2.1_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 4
-        width: 106
-        height: 145
+        x: 992
+        y: 1488
+        width: 569
+        height: 919
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bca2c6a524c4de10800000000000000
-      internalID: 2221616182191107254
+      spriteID: 66de3c87a60a00070800000000000000
+      internalID: 8070626911401012582
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Wire_0: 2221616182191107254
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
