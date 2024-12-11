@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f48fe9389bb743b44950ad578cc62251
+guid: 40abee2c1898d574e9da187f5324e9bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -790703634185952887
-    second: Robot2_glowa_0
+      213: 3977530178723197372
+    second: Robot2_tors_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot2_glowa_0
+      name: Robot2_tors_0
       rect:
         serializedVersion: 2
-        x: 817
-        y: 2999
-        width: 494
-        height: 814
+        x: 220
+        y: 2183
+        width: 1109
+        height: 1166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9816cb9eb3bd605f0800000000000000
-      internalID: -790703634185952887
+      spriteID: cb1313aaf96033730800000000000000
+      internalID: 3977530178723197372
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot2_tors_0: 3977530178723197372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

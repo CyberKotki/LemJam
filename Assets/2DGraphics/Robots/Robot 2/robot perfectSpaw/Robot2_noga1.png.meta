@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 40abee2c1898d574e9da187f5324e9bc
+guid: b391104cba19b374ea35c4ed522a3e78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3977530178723197372
-    second: Robot2_tors_0
+      213: 475303909938491113
+    second: Robot2_noga1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot2_tors_0
+      name: Robot2_noga1_0
       rect:
         serializedVersion: 2
-        x: 220
-        y: 2183
-        width: 1109
-        height: 1166
+        x: 643
+        y: 738
+        width: 592
+        height: 1632
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb1313aaf96033730800000000000000
-      internalID: 3977530178723197372
+      spriteID: 9eeec38436e989600800000000000000
+      internalID: 475303909938491113
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot2_noga1_0: 475303909938491113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
