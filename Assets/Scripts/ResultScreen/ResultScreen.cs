@@ -37,6 +37,7 @@ public class ResultScreen : MonoBehaviour
     }
 
     public void Show(LevelData data, float accuracy) {
+        panel.gameObject.SetActive(true);
         _levelText.text = data.title;
         _accuracyText.text = accuracy.ToString();
         _levelData = data;
@@ -64,7 +65,6 @@ public class ResultScreen : MonoBehaviour
             _screwContainer.transform.GetChild(i).gameObject.SetActive(true);
         }
         _titleText.text = title;
-        panel.gameObject.SetActive(true);
     }
 
     void NextLevel() {
