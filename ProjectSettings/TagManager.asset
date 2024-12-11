@@ -42,14 +42,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: biureczko
+    uniqueID: 1078560689
+    locked: 0
   - name: czescirobota
     uniqueID: 122346201
     locked: 0
   - name: SpawPointery
     uniqueID: 4272660139
-    locked: 0
-  - name: biureczko
-    uniqueID: 1078560689
     locked: 0
   - name: iskry
     uniqueID: 2663117449
