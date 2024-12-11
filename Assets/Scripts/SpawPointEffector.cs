@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Events;
+using System.Collections.Generic;
 
 public class SpawPointEffector : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class SpawPointEffector : MonoBehaviour
     [SerializeField] float bufferDuration;
     [SerializeField] private Canvas canvas;
 
-    private Camera mainCamera;    
+    private Camera mainCamera;
+    public List<GameObject> spawPointy = new();
 
     [Header("OnClick Event")]
     public UnityEvent OnClick;
@@ -28,12 +30,29 @@ public class SpawPointEffector : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Left mouse button
         {
             OnClick.Invoke();
-            Debug.Log("siema");
         }
             
     }
 
 
+
+    public void SpawClick()
+    {   
+        float distanceFromClick = float.MaxValue;
+        GameObject closestSpawPoint = null;
+        foreach (GameObject spawPoint in spawPointy)
+        {
+            float nowaOdleglosc = (new Vector2(spawPoint.transform.GetChild(0).transform.position.x, spawPoint.transform.GetChild(0).transform.position.y) - ClickPosition()).magnitude;
+            if(nowaOdleglosc<distanceFromClick)
+            {
+                distanceFromClick = nowaOdleglosc;
+                closestSpawPoint = spawPoint;
+            }
+        }
+
+        closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
+        
+    }
 
     private Vector2 ClickPosition()
     {
@@ -42,8 +61,8 @@ public class SpawPointEffector : MonoBehaviour
         Vector3 mousePosition = Input.mousePosition;
         Vector3 worldPosition = mainCamera.ScreenToWorldPoint(mousePosition);
 
-        Ray ray = mainCamera.ScreenPointToRay(worldPosition);
-        RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
+        //Ray ray = mainCamera.ScreenPointToRay(worldPosition);
+        //RaycastHit2D hit = Physics2D.GetRayIntersection(ray, 6);
 
         return new Vector2(worldPosition.x, worldPosition.y);
     }
@@ -61,7 +80,7 @@ public class SpawPointEffector : MonoBehaviour
 
     private void FinishedBuffer(GameObject SpawnedSpawBuffer)
     {
-        Destroy(SpawnedSpawBuffer, 2f);
+        Destroy(SpawnedSpawBuffer, 1f);
     }
 }
     
