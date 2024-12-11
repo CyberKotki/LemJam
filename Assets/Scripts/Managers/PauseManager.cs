@@ -6,12 +6,14 @@ public class PauseManager : MonoBehaviour
     public GameObject settingsMenu;
     public static bool GameIsPaused = false;
     public GameObject pauseMenu;
+    public GameObject resultScreen;
 
 
     void Start()
     {
         pauseMenu.SetActive(false);
         settingsMenu.SetActive(false);
+        resultScreen.SetActive(false);
     }
 
     void Update()
@@ -67,4 +69,6 @@ public class PauseManager : MonoBehaviour
         Debug.Log("change to scene ID#" + sceneID);
         SceneManager.LoadScene(sceneID);
     }
+    
+    
 }
