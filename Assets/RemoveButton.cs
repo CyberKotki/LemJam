@@ -9,7 +9,7 @@ public class RemoveButton : MonoBehaviour
     void Start()
     {
         GetComponent<Button>()?.onClick.AddListener(() => {
-            im.gameObject.SetActive(false);
+            im?.gameObject.SetActive(false);
             Destroy(gameObject);
         });
     }
