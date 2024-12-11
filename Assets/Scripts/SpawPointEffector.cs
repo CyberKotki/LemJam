@@ -5,6 +5,7 @@ using UnityEngine.Events;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using UnityEditor;
 
 public class SpawPointEffector : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class SpawPointEffector : MonoBehaviour
     [SerializeField] private int healthPoints;
     [SerializeField] private Spark sparkBadPref;
     [SerializeField] private Spark sparkGoodPref;
+    [SerializeField] private GameObject heartPref;
     private Camera mainCamera;
     public List<GameObject> spawPointy = new();
     public List<GameObject> spawed = new();
@@ -34,6 +36,7 @@ public class SpawPointEffector : MonoBehaviour
         if(canvas == null) {
             Debug.LogError("No canvas on scene. Required for SpawnPointEffector in robot");
         }
+        reloadCanvas();
     }
 
     private void Update()
@@ -80,6 +83,7 @@ public class SpawPointEffector : MonoBehaviour
             Debug.Log("Accuracy: " + accuracy);
             FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }
+        reloadCanvas();
         
         
     }
@@ -124,6 +128,19 @@ public class SpawPointEffector : MonoBehaviour
     private void FinishedBuffer(GameObject SpawnedSpawBuffer)
     {
         Destroy(SpawnedSpawBuffer, 1f);
+    }
+
+    private void reloadCanvas() {
+        HorizontalLayoutGroup hlg = FindAnyObjectByType<HorizontalLayoutGroup>();
+        if(hlg == null) {
+            Debug.LogError("No canvas or container for lives");
+        }
+        for(int i=0; i<hlg.transform.childCount; i++) {
+            Destroy(hlg.transform.GetChild(i).gameObject);
+        }
+        for(int i=0; i<healthPoints; i++) {
+            Instantiate(heartPref, hlg.transform);
+        }
     }
 }
     
