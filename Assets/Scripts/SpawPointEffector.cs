@@ -107,7 +107,7 @@ public class SpawPointEffector : MonoBehaviour
 
         if (healthPoints <= 0 || spawPointy.Count <= 0)
         {
-            float accuracy = distances.Select(x => 1f - Math.Clamp(x, 0, 1) * 1f).Sum() / distances.Count * 100;
+            float accuracy = distances.Select(x => 1.2f - Math.Clamp(x, 0, 1) * 1f).Sum() / distances.Count * 100;
             Debug.Log("Accuracy: " + accuracy);
             FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }
