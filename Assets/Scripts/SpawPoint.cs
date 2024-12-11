@@ -5,8 +5,8 @@ public class SpawPoint : MonoBehaviour
     public Sprite missedSpaw;
     public Sprite perfectSpaw;
 
-    public SpriteRenderer spriteRendererKonczyny;
-    public SpriteRenderer spriteRendererSpawPointera;
+    private SpriteRenderer spriteRendererKonczyny;
+    private SpriteRenderer spriteRendererSpawPointera;
 
 
     private void Start()
@@ -16,12 +16,12 @@ public class SpawPoint : MonoBehaviour
     }
     public void Spaw(float distance)
     {
-        if (distance < 0.5)
+        if (distance < 0.6)
         {
             spriteRendererKonczyny.sprite = perfectSpaw;
             spriteRendererSpawPointera.enabled = false;
         }
-        else if(distance< 0.85)
+        else if(distance< 1)
         {
             spriteRendererKonczyny.sprite = missedSpaw;
             spriteRendererSpawPointera.enabled = false;

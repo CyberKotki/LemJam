@@ -38,14 +38,16 @@ public class GameplayLoop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F)) {
-            Debug.Log("Clicked");
-            StartCoroutine(StartGame());
-        }
+
     }
 
     public void Finish(float result) {
         StartCoroutine(finishGame(result));
+    }
+
+    public void StartGameNonCoroutine()
+    {
+        StartCoroutine(StartGame());
     }
 
     private IEnumerator StartGame() {
@@ -66,7 +68,7 @@ public class GameplayLoop : MonoBehaviour
         else {
             robot.Success();
         }
-        yield return new WaitForSeconds(4);
-        ResultScreen.instance.Show(nextLevelData, result);
+        yield return new WaitForSeconds(2);
+        ResultScreen.instance.Show(result);
     }
 }

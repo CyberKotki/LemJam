@@ -63,6 +63,11 @@ public class PauseManager : MonoBehaviour
         Application.Quit();
     }
     
+    public void OpenResults()
+    {
+        resultScreen.SetActive(true);
+    }
+
     // Method to load a new scene by id
     public void ChangeScene(int sceneID)
     {
