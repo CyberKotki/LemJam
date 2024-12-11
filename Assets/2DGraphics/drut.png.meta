@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5b01ebbd99e1f9d7f9546d4ce8c559b7
+guid: d444b3b934bc57c4aa5cd14f73862b91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9034050035616262311
-    second: licznik_0
+      213: -1955347273745170490
+    second: drut_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: licznik_0
+      name: drut_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 51
-        width: 1092
-        height: 694
+        x: 0
+        y: 0
+        width: 362
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a8230894a46f5d70800000000000000
-      internalID: 9034050035616262311
+      spriteID: 6cff3efa3063dd4e0800000000000000
+      internalID: -1955347273745170490
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      licznik_0: 9034050035616262311
+      drut_0: -1955347273745170490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

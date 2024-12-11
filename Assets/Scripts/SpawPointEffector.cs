@@ -4,17 +4,21 @@ using DG.Tweening;
 using UnityEngine.Events;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 public class SpawPointEffector : MonoBehaviour
 {
     private List<float> distances = new();
     [SerializeField] GameObject bufferPrefab;
     [SerializeField] float bufferDuration;
-    [SerializeField] private Canvas canvas;
+    private Canvas canvas;
 
     [SerializeField] private int healthPoints;
+    [SerializeField] private Spark sparkBadPref;
+    [SerializeField] private Spark sparkGoodPref;
     private Camera mainCamera;
     public List<GameObject> spawPointy = new();
+    public List<GameObject> spawed = new();
 
     [Header("OnClick Event")]
     public UnityEvent OnClick;
@@ -25,6 +29,10 @@ public class SpawPointEffector : MonoBehaviour
         if (mainCamera == null)
         {
             Debug.LogError("nimo kamery");
+        }
+        canvas = FindAnyObjectByType<Canvas>();
+        if(canvas == null) {
+            Debug.LogError("No canvas on scene. Required for SpawnPointEffector in robot");
         }
     }
 
@@ -37,20 +45,8 @@ public class SpawPointEffector : MonoBehaviour
             
     }
 
-    public void wyjebka()
-    {
-
-        float average = distances.Sum() / distances.Count;
-    }
-
-    public void wygranko()
-    {
-        float average = distances.Sum() / distances.Count;
-        Debug.Log("kuniec");
-    }
-
     public void SpawClick()
-    {   
+    {
         float distanceFromClick = float.MaxValue;
         GameObject closestSpawPoint = null;
         foreach (GameObject spawPoint in spawPointy)
@@ -66,21 +62,39 @@ public class SpawPointEffector : MonoBehaviour
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
         distances.Add(distanceFromClick);
 
-        if(distanceFromClick<0.7)// to bedzie zmieniaæ potems
+        if(distanceFromClick<1.5)// to bedzie zmieniaï¿½ potems
         {
-
             spawPointy.Remove(closestSpawPoint);
+            spawed.Add(closestSpawPoint);
+            Instantiate(sparkGoodPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
         }
         else
         {
             healthPoints -= 1;
+            Instantiate(sparkBadPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
         }
 
         if (healthPoints <= 0 || spawPointy.Count <= 0)
         {
-            wygranko();
+            float accuracy = distances.Select(x => 1 - Math.Clamp(x, 0, 1) * 1.3f).Sum() / distances.Count * 100;
+            Debug.Log("Accuracy: " + accuracy);
+            FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }
         
+        
+    }
+
+    public void Success() {
+        Debug.Log("Success animation not implemented");
+        // spawPointy to nie zespawane
+        // spawed to zespawane
+
+    }
+
+    public void Failure() {
+        Debug.Log("Failure animation not implemented");
+        // spawPointy to nie zespawane
+        // spawed to zespawane
     }
 
     private Vector2 ClickPosition()
@@ -96,7 +110,7 @@ public class SpawPointEffector : MonoBehaviour
         return new Vector2(worldPosition.x, worldPosition.y);
     }
 
-    //tu sobie spawnujemy ten buffor i dalej callujemy reszte rzeczy które siê dziej¹ kiedy skoñczy siê ³adowaæ
+    //tu sobie spawnujemy ten buffor i dalej callujemy reszte rzeczy ktï¿½re siï¿½ dziejï¿½ kiedy skoï¿½czy siï¿½ ï¿½adowaï¿½
     public void SpawnSpawBuffer()
     {
         GameObject SpawnedSpawBuffer = Instantiate(bufferPrefab, ClickPosition(), Quaternion.identity);

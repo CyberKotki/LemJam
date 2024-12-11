@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5b01ebbd99e1f9d7f9546d4ce8c559b7
+guid: 720fa71ebfda90188915d1e9ca38e088
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9034050035616262311
-    second: licznik_0
+      213: -8123943049579931988
+    second: Robot2_reka2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: licznik_0
+      name: Robot2_reka2_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 51
-        width: 1092
-        height: 694
+        x: 256
+        y: 1386
+        width: 609
+        height: 1738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a8230894a46f5d70800000000000000
-      internalID: 9034050035616262311
+      spriteID: ca6d842c6d4f14f80800000000000000
+      internalID: -8123943049579931988
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      licznik_0: 9034050035616262311
+      Robot2_reka2_0: -8123943049579931988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
