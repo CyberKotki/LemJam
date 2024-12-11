@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: dabeeb34bdf803de68ab47d26c6fd3f6
+guid: 75b592a16209bf844b0704e38f2d8d2b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2221616182191107254
-    second: Wire_0
+      213: 5173662325971981679
+    second: Robot3_reka2.2_0
+  - first:
+      213: 2540668690059883529
+    second: Robot3_reka2.2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wire_0
+      name: Robot3_reka2.2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 4
-        width: 106
-        height: 145
+        x: 264
+        y: 1974
+        width: 580
+        height: 826
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bca2c6a524c4de10800000000000000
-      internalID: 2221616182191107254
+      spriteID: f659167697a8cc740800000000000000
+      internalID: 5173662325971981679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot3_reka2.2_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1755
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904f9fa66b4424320800000000000000
+      internalID: 2540668690059883529
       vertices: []
       indices: 
       edges: []
@@ -134,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Wire_0: 2221616182191107254
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
