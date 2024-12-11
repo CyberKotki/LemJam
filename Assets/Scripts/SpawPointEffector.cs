@@ -93,13 +93,13 @@ public class SpawPointEffector : MonoBehaviour
         {
 
             spawPointy.Remove(closestSpawPoint);
-            spawed.Add(closestSpawPoint);
-            Instantiate(sparkGoodPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
+            //spawed.Add(closestSpawPoint);
+            Instantiate(sparkGoodPref, new Vector3(ClickPosition.x, ClickPosition.y, -0.1f), Quaternion.identity);
         }
         else
         {
             healthPoints -= 1;
-            Instantiate(sparkBadPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
+            Instantiate(sparkBadPref, ClickPosition, Quaternion.identity);
         }
 
         if (healthPoints <= 0 || spawPointy.Count <= 0)
@@ -113,19 +113,19 @@ public class SpawPointEffector : MonoBehaviour
         
     }
 
-    public void Success() {
+    public void Wygranko() 
+    {
         Debug.Log("Success animation not implemented");
         // spawPointy to nie zespawane
         // spawed to zespawane
 
     }
 
-    public void Failure() {
+    public void przegranko() 
+    {
         Debug.Log("Failure animation not implemented");
         // spawPointy to nie zespawane
-        // spawed to zespawane
-            Success();
-        }
+        // spawed to zespawane    
         
     }
 
