@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: df3d1aa97da579b4f8de7e938eccc7d4
+guid: 488f35b13f8fa935abe38806525b41b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7289034248134142131
-    second: back-button-click_0
+      213: -2408497556031294585
+    second: Robot3_reka1.2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: back-button-click_0
+      name: Robot3_reka1.2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 403
-        height: 403
+        x: 993
+        y: 2002
+        width: 1002
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b821bb970ad72560800000000000000
-      internalID: 7289034248134142131
+      spriteID: 783bb5acb3c439ed0800000000000000
+      internalID: -2408497556031294585
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      back-button-click_0: 7289034248134142131
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
