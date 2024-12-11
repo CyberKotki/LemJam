@@ -6,21 +6,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using UnityEditor;
+using System.Threading.Tasks;
 
 public class SpawPointEffector : MonoBehaviour
 {
     private List<float> distances = new();
     [SerializeField] GameObject bufferPrefab;
     [SerializeField] float bufferDuration;
-    private Canvas canvas;
+    [SerializeField] private Canvas canvas;
 
     [SerializeField] private int healthPoints;
     [SerializeField] private Spark sparkBadPref;
     [SerializeField] private Spark sparkGoodPref;
     [SerializeField] private GameObject heartPref;
+
+    public GameObject container;
     private Camera mainCamera;
     public List<GameObject> spawPointy = new();
-    public List<GameObject> spawed = new();
+
+    public float cooldownTime = 1f; // Czas cooldownu w sekundach
+
+    private bool canClick = true; // Flaga kontrolująca możliwość kliknięcia
+
 
     [Header("OnClick Event")]
     public UnityEvent OnClick;
@@ -32,28 +39,48 @@ public class SpawPointEffector : MonoBehaviour
         {
             Debug.LogError("nimo kamery");
         }
-        canvas = FindAnyObjectByType<Canvas>();
-        if(canvas == null) {
-            Debug.LogError("No canvas on scene. Required for SpawnPointEffector in robot");
-        }
     }
+    
+    
+
+    
+
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button
+        if (Input.GetMouseButtonDown(0) && canClick) // Sprawdź lewy przycisk myszy i cooldown
         {
             OnClick.Invoke();
+            StartCooldownAsync();
         }
-            
     }
 
-    public void SpawClick()
+    private async void StartCooldownAsync()
     {
+        canClick = false; // Zablokuj kliknięcia
+        await Task.Delay((int)(cooldownTime * 1000)); // Odczekaj czas cooldownu w milisekundach
+        canClick = true; // Odblokuj kliknięcia
+    }
+
+    public void Failure()
+    {
+
+        float average = distances.Sum() / distances.Count;
+    }
+
+    public void Success()
+    {
+        float average = distances.Sum() / distances.Count;
+        Debug.Log("kuniec");    
+    }
+
+    public void SpawClick(Vector2 ClickPosition)
+    {   
         float distanceFromClick = float.MaxValue;
         GameObject closestSpawPoint = null;
         foreach (GameObject spawPoint in spawPointy)
         {
-            float nowaOdleglosc = (new Vector2(spawPoint.transform.GetChild(0).transform.position.x, spawPoint.transform.GetChild(0).transform.position.y) - ClickPosition()).magnitude;
+            float nowaOdleglosc = (new Vector2(spawPoint.transform.GetChild(0).transform.position.x, spawPoint.transform.GetChild(0).transform.position.y) - ClickPosition).magnitude;
             if(nowaOdleglosc<distanceFromClick)
             {
                 distanceFromClick = nowaOdleglosc;
@@ -64,16 +91,18 @@ public class SpawPointEffector : MonoBehaviour
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
         distances.Add(distanceFromClick);
 
-        if(distanceFromClick<1.5)// to bedzie zmienia� potems
+        if(distanceFromClick< 0.85)// to bedzie zmienia� potems
         {
+
             spawPointy.Remove(closestSpawPoint);
-            spawed.Add(closestSpawPoint);
-            Instantiate(sparkGoodPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
+            //spawed.Add(closestSpawPoint);
+            Instantiate(sparkGoodPref, new Vector3(ClickPosition.x, ClickPosition.y, -0.1f), Quaternion.identity);
         }
         else
         {
             healthPoints -= 1;
-            Instantiate(sparkBadPref, new Vector3(ClickPosition().x, ClickPosition().y, -0.1f), Quaternion.identity);
+            Destroy(container.transform.GetChild(0).gameObject);
+            Instantiate(sparkBadPref, ClickPosition, Quaternion.identity);
         }
 
         if (healthPoints <= 0 || spawPointy.Count <= 0)
@@ -82,22 +111,24 @@ public class SpawPointEffector : MonoBehaviour
             Debug.Log("Accuracy: " + accuracy);
             FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }
-        reloadCanvas();
         
         
     }
 
-    public void Success() {
+    public void Wygranko() 
+    {
         Debug.Log("Success animation not implemented");
         // spawPointy to nie zespawane
         // spawed to zespawane
 
     }
 
-    public void Failure() {
+    public void przegranko() 
+    {
         Debug.Log("Failure animation not implemented");
         // spawPointy to nie zespawane
-        // spawed to zespawane
+        // spawed to zespawane    
+        
     }
 
     private Vector2 ClickPosition()
@@ -113,33 +144,36 @@ public class SpawPointEffector : MonoBehaviour
         return new Vector2(worldPosition.x, worldPosition.y);
     }
 
-    //tu sobie spawnujemy ten buffor i dalej callujemy reszte rzeczy kt�re si� dziej� kiedy sko�czy si� �adowa�
+    //tu sobie spawnujemy ten buffor i dalej callujemy reszte rzeczy które się dzieją kiedy skończy się ładować
     public void SpawnSpawBuffer()
     {
+        Vector2 clickPosition = ClickPosition();
+
         GameObject SpawnedSpawBuffer = Instantiate(bufferPrefab, ClickPosition(), Quaternion.identity);
         SpawnedSpawBuffer.transform.SetParent(canvas.transform, false);
         SpawnedSpawBuffer.transform.position = ClickPosition();
 
         DOTween.To(() => SpawnedSpawBuffer.GetComponent<Image>().fillAmount, x=> SpawnedSpawBuffer.GetComponent<Image>().fillAmount = x, 1, bufferDuration).SetEase(Ease.Linear)
-            .OnComplete(() => FinishedBuffer(SpawnedSpawBuffer)); 
+            .OnComplete(() => FinishedBuffer(SpawnedSpawBuffer, clickPosition)); 
     }
 
-    private void FinishedBuffer(GameObject SpawnedSpawBuffer)
+    private void FinishedBuffer(GameObject SpawnedSpawBuffer, Vector2 ClickPosition)
     {
-        Destroy(SpawnedSpawBuffer, 1f);
+        Destroy(SpawnedSpawBuffer, cooldownTime);
+        SpawClick(ClickPosition);
     }
 
-    public void reloadCanvas() {
-        HorizontalLayoutGroup hlg = FindAnyObjectByType<HorizontalLayoutGroup>();
-        if(hlg == null) {
-            Debug.LogError("No canvas or container for lives");
-        }
-        for(int i=0; i<hlg.transform.childCount; i++) {
-        Destroy(hlg.transform.GetChild(i).gameObject);
-        }
-        for(int i=0; i<healthPoints; i++) {
-            Instantiate(heartPref, hlg.transform);
-        }
-    }
+    //public void reloadCanvas() {
+    //    HorizontalLayoutGroup hlg = FindAnyObjectByType<HorizontalLayoutGroup>();
+    //    if(hlg == null) {
+    //        Debug.LogError("No canvas or container for lives");
+    //    }
+    //    for(int i=0; i<hlg.transform.childCount; i++) {
+    //    Destroy(hlg.transform.GetChild(i).gameObject);
+    //    }
+    //    for(int i=0; i<healthPoints; i++) {
+    //        Instantiate(heartPref, hlg.transform);
+    //    }
+    //}
 }
     
