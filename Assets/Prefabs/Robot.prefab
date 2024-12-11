@@ -321,6 +321,7 @@ MonoBehaviour:
   bufferPrefab: {fileID: 9156982496170982880, guid: 0286485a80f3ff84789a2447a01c2c13, type: 3}
   bufferDuration: 1
   canvas: {fileID: 0}
+  healthPoints: 3
   spawPointy:
   - {fileID: 6769091764576770465}
   - {fileID: 7776212238088319263}

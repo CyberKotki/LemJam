@@ -18,9 +18,9 @@ public class SpawPoint : MonoBehaviour
         else
         {
             //miss
-        }
+        }   
 
-        //Debug.Log(distance);
-        //Debug.Log(gameObject.name);
+        Debug.Log(distance);
+        Debug.Log(gameObject.name);
     }
 }

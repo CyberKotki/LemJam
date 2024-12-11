@@ -3,13 +3,16 @@ using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Events;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SpawPointEffector : MonoBehaviour
 {
+    private List<float> distances = new();
     [SerializeField] GameObject bufferPrefab;
     [SerializeField] float bufferDuration;
     [SerializeField] private Canvas canvas;
 
+    [SerializeField] private int healthPoints;
     private Camera mainCamera;
     public List<GameObject> spawPointy = new();
 
@@ -34,7 +37,17 @@ public class SpawPointEffector : MonoBehaviour
             
     }
 
+    public void wyjebka()
+    {
 
+        float average = distances.Sum() / distances.Count;
+    }
+
+    public void wygranko()
+    {
+        float average = distances.Sum() / distances.Count;
+        Debug.Log("kuniec");
+    }
 
     public void SpawClick()
     {   
@@ -51,6 +64,22 @@ public class SpawPointEffector : MonoBehaviour
         }
 
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
+        distances.Add(distanceFromClick);
+
+        if(distanceFromClick<0.7)// to bedzie zmieniaæ potems
+        {
+
+            spawPointy.Remove(closestSpawPoint);
+        }
+        else
+        {
+            healthPoints -= 1;
+        }
+
+        if (healthPoints <= 0 || spawPointy.Count <= 0)
+        {
+            wygranko();
+        }
         
     }
 
