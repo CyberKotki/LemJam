@@ -7,6 +7,7 @@ public class GameplayLoop : MonoBehaviour
 {
     [SerializeField] private float treshold = 50;
     [SerializeField] private LevelData nextLevelData;
+    public GameObject container;
 
     private SpawPointEffector robot;
     Mask mask;
@@ -17,6 +18,7 @@ public class GameplayLoop : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Debug.Log(gameObject.name);
         h = FindAnyObjectByType<HorizontalLayoutGroup>();
         h?.gameObject.SetActive(false);
         robot = FindAnyObjectByType<SpawPointEffector>();
@@ -50,12 +52,13 @@ public class GameplayLoop : MonoBehaviour
         mask.Close();
         h?.gameObject.SetActive(true);
         yield return new WaitForSeconds(4);
-        FindAnyObjectByType<SpawPointEffector>()?.reloadCanvas();
+        container.SetActive(true);
         robot.enabled = true;
     }
 
     private IEnumerator finishGame(float result) {
         mask.Open();
+        container.SetActive(false);
         yield return new WaitForSeconds(1);
         if(result < treshold) {
             robot.Failure();

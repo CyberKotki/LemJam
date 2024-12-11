@@ -19,6 +19,8 @@ public class SpawPointEffector : MonoBehaviour
     [SerializeField] private Spark sparkBadPref;
     [SerializeField] private Spark sparkGoodPref;
     [SerializeField] private GameObject heartPref;
+
+    public GameObject container;
     private Camera mainCamera;
     public List<GameObject> spawPointy = new();
 
@@ -89,7 +91,7 @@ public class SpawPointEffector : MonoBehaviour
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
         distances.Add(distanceFromClick);
 
-        if(distanceFromClick< 0.75)// to bedzie zmieniaæ potems
+        if(distanceFromClick< 0.85)// to bedzie zmieniaæ potems
         {
 
             spawPointy.Remove(closestSpawPoint);
@@ -99,6 +101,7 @@ public class SpawPointEffector : MonoBehaviour
         else
         {
             healthPoints -= 1;
+            Destroy(container.transform.GetChild(0).gameObject);
             Instantiate(sparkBadPref, ClickPosition, Quaternion.identity);
         }
 
@@ -108,7 +111,6 @@ public class SpawPointEffector : MonoBehaviour
             Debug.Log("Accuracy: " + accuracy);
             FindAnyObjectByType<GameplayLoop>()?.Finish(accuracy);
         }
-        reloadCanvas();
         
         
     }
@@ -161,17 +163,17 @@ public class SpawPointEffector : MonoBehaviour
         SpawClick(ClickPosition);
     }
 
-    public void reloadCanvas() {
-        HorizontalLayoutGroup hlg = FindAnyObjectByType<HorizontalLayoutGroup>();
-        if(hlg == null) {
-            Debug.LogError("No canvas or container for lives");
-        }
-        for(int i=0; i<hlg.transform.childCount; i++) {
-        Destroy(hlg.transform.GetChild(i).gameObject);
-        }
-        for(int i=0; i<healthPoints; i++) {
-            Instantiate(heartPref, hlg.transform);
-        }
-    }
+    //public void reloadCanvas() {
+    //    HorizontalLayoutGroup hlg = FindAnyObjectByType<HorizontalLayoutGroup>();
+    //    if(hlg == null) {
+    //        Debug.LogError("No canvas or container for lives");
+    //    }
+    //    for(int i=0; i<hlg.transform.childCount; i++) {
+    //    Destroy(hlg.transform.GetChild(i).gameObject);
+    //    }
+    //    for(int i=0; i<healthPoints; i++) {
+    //        Instantiate(heartPref, hlg.transform);
+    //    }
+    //}
 }
     
