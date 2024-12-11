@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1d82a86b1c8177db9afd0d32608f8c5a
+guid: 2830af89f0a1b8e488e382d918e70d61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 257694368604342357
-    second: Robot3_2.2_0
-  - first:
-      213: 2843805979818381377
-    second: Robot3_2.2_1
+      213: -3887897044931733741
+    second: Robot1_glowa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot3_2.2_0
+      name: Robot1_glowa_0
       rect:
         serializedVersion: 2
-        x: 1810
-        y: 1740
-        width: 24
-        height: 26
+        x: 890
+        y: 3154
+        width: 446
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 558c745b9a3839300800000000000000
-      internalID: 257694368604342357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot3_2.2_1
-      rect:
-        serializedVersion: 2
-        x: 1137
-        y: 524
-        width: 379
-        height: 1179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 140d435b87a377720800000000000000
-      internalID: 2843805979818381377
+      spriteID: 3179d819c3a6b0ac0800000000000000
+      internalID: -3887897044931733741
       vertices: []
       indices: 
       edges: []
@@ -172,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot1_glowa_0: -3887897044931733741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 920b787cb3f15aadeb69d3d1aca5b713
+guid: a7f0dd9a790b24540ad92e89ba2c56c9
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot3_glowa_0: 7119353816694015888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 488f35b13f8fa935abe38806525b41b1
+guid: f0391211f6a9d1a4cae41a9449587546
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2408497556031294585
-    second: Robot3_reka1.2_0
+      213: -267822097804848814
+    second: Robot3_biodro_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot3_reka1.2_0
+      name: Robot3_biodro_0
       rect:
         serializedVersion: 2
-        x: 993
-        y: 2002
-        width: 1002
-        height: 600
+        x: 729
+        y: 2178
+        width: 749
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 783bb5acb3c439ed0800000000000000
-      internalID: -2408497556031294585
+      spriteID: 25197559831884cf0800000000000000
+      internalID: -267822097804848814
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot3_biodro_0: -267822097804848814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

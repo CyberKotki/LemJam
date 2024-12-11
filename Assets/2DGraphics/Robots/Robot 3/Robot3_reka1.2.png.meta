@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 69393be3771ec64c7a29d7094bc20b71
+guid: 856a41ca98d21c044ab559041ad86579
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3291159103260774111
-    second: Robot3_talia_0
-  - first:
-      213: -2881990489788555761
-    second: Robot3_talia_1
-  - first:
-      213: 6657518641420790141
-    second: Robot3_talia_2
+      213: -2408497556031294585
+    second: Robot3_reka1.2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot3_talia_0
+      name: Robot3_reka1.2_0
       rect:
         serializedVersion: 2
-        x: 898
-        y: 2279
-        width: 52
-        height: 281
+        x: 993
+        y: 2002
+        width: 1002
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdec62164cb8cad20800000000000000
-      internalID: 3291159103260774111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot3_talia_1
-      rect:
-        serializedVersion: 2
-        x: 1051
-        y: 2306
-        width: 62
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0e59124bec1108d0800000000000000
-      internalID: -2881990489788555761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot3_talia_2
-      rect:
-        serializedVersion: 2
-        x: 1189
-        y: 2326
-        width: 51
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d796d6b6ee1446c50800000000000000
-      internalID: 6657518641420790141
+      spriteID: 783bb5acb3c439ed0800000000000000
+      internalID: -2408497556031294585
       vertices: []
       indices: 
       edges: []
@@ -197,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Robot3_reka1.2_0: -2408497556031294585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
