@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: f22c325765f88af418b7bb7fbbc653ee
+guid: a650e064b9a4a454b9577993ffd8a738
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2954472570096696337
-    second: lewanoga_0
+      213: 9115467942794022551
+    second: frame_00002_0
   - first:
-      213: -9185530223481492476
-    second: lewanoga_1
-  - first:
-      213: -6469629159179955880
-    second: lewanoga_2
+      213: 4246647359703370489
+    second: frame_00002_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,9 +52,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.87074953, y: 0.9719768}
-  spritePixelsToUnits: 450
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,67 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lewanoga_0
+      name: frame_00002_0
       rect:
         serializedVersion: 2
-        x: 114
-        y: 703
-        width: 17
-        height: 20
+        x: 60
+        y: 19
+        width: 240
+        height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11cbf372625600920800000000000000
-      internalID: 2954472570096696337
+      spriteID: 79ec2b35cc5a08e70800000000000000
+      internalID: 9115467942794022551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lewanoga_1
+      name: frame_00002_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 512
-        width: 935
-        height: 1365
+        x: 364
+        y: 148
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40c65c3cde0768080800000000000000
-      internalID: -9185530223481492476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lewanoga_2
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 651
-        width: 31
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 851d19aae824736a0800000000000000
-      internalID: -6469629159179955880
+      spriteID: 9fa4871264f1fea30800000000000000
+      internalID: 4246647359703370489
       vertices: []
       indices: 
       edges: []
@@ -189,7 +164,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -198,9 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lewanoga_0: 2954472570096696337
-      lewanoga_1: -9185530223481492476
-      lewanoga_2: -6469629159179955880
+      frame_00002_0: 9115467942794022551
+      frame_00002_1: 4246647359703370489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
