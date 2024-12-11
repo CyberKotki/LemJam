@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: df3d1aa97da579b4f8de7e938eccc7d4
+guid: 39c83df6a68dcfbfc9d253e663513c43
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7289034248134142131
-    second: back-button-click_0
+      213: 1996255996172328704
+    second: Robot3_ekran_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: back-button-click_0
+      name: Robot3_ekran_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 403
-        height: 403
+        x: 766
+        y: 2487
+        width: 605
+        height: 404
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b821bb970ad72560800000000000000
-      internalID: 7289034248134142131
+      spriteID: 00f589c704024bb10800000000000000
+      internalID: 1996255996172328704
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      back-button-click_0: 7289034248134142131
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
