@@ -2414,9 +2414,33 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8304349896319882431, guid: 2e15e129521c1412f8e6e454a66f5852, type: 3}
     - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
+      propertyPath: weldClips.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
       propertyPath: spawPointy.Array.size
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
+      propertyPath: 'weldClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d570512b0ba10894bb512b667d65a5ee, type: 3}
+    - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
+      propertyPath: 'weldClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d731880dc2231ec4cb41416dcc0ae386, type: 3}
+    - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
+      propertyPath: 'weldClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: e8b27aa7c134e5f4a8f3423de6208ef6, type: 3}
+    - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
+      propertyPath: 'weldClips.Array.data[3]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 69b062d01bbaeb144b632d01d5514694, type: 3}
+    - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
+      propertyPath: 'weldClips.Array.data[4]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d934dd7ecc2a03f4aa560566b1389cc4, type: 3}
     - target: {fileID: 3377155697153449768, guid: 33d47c0a9ac42be4abba78268e720f00, type: 3}
       propertyPath: 'spawPointy.Array.data[0]'
       value: 
