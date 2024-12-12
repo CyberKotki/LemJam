@@ -906,7 +906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 357404026015299579, guid: 886ed9259924a4a41a8b198ae62a5a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 357404026015299579, guid: 886ed9259924a4a41a8b198ae62a5a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -954,7 +954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 700853044816397330, guid: 886ed9259924a4a41a8b198ae62a5a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 700853044816397330, guid: 886ed9259924a4a41a8b198ae62a5a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -1266,7 +1266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6253996373063172045, guid: 886ed9259924a4a41a8b198ae62a5a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6253996373063172045, guid: 886ed9259924a4a41a8b198ae62a5a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -2255,6 +2255,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 479000085551192194, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: missedSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: ea3d0943116cf8443af20524ee3a8b9c, type: 3}
+    - target: {fileID: 479000085551192194, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: perfectSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: ea3d0943116cf8443af20524ee3a8b9c, type: 3}
     - target: {fileID: 1132539309991634179, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
       propertyPath: m_SortingLayer
       value: 2
@@ -2263,6 +2271,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 122346201
       objectReference: {fileID: 0}
+    - target: {fileID: 1516799708614503085, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: missedSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: dc4ad550ccc60bc4890de16eaff18d6d, type: 3}
+    - target: {fileID: 1516799708614503085, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: perfectSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: dc4ad550ccc60bc4890de16eaff18d6d, type: 3}
     - target: {fileID: 1601560654418507637, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
       propertyPath: m_SortingLayer
       value: 2
@@ -2284,9 +2300,33 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1635663170}
     - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: weldClips.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
       propertyPath: spawPointy.Array.size
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: 'weldClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d570512b0ba10894bb512b667d65a5ee, type: 3}
+    - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: 'weldClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d731880dc2231ec4cb41416dcc0ae386, type: 3}
+    - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: 'weldClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: e8b27aa7c134e5f4a8f3423de6208ef6, type: 3}
+    - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: 'weldClips.Array.data[3]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 69b062d01bbaeb144b632d01d5514694, type: 3}
+    - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: 'weldClips.Array.data[4]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d934dd7ecc2a03f4aa560566b1389cc4, type: 3}
     - target: {fileID: 2433200367939489388, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
       propertyPath: 'spawPointy.Array.data[0]'
       value: 
@@ -2359,6 +2399,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3519421848954241813, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: missedSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f8221de2decc1e4eb0f4311f8cade21, type: 3}
+    - target: {fileID: 3519421848954241813, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: perfectSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f8221de2decc1e4eb0f4311f8cade21, type: 3}
     - target: {fileID: 3571105633656880519, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
       propertyPath: m_SortingLayer
       value: 2
@@ -2375,6 +2423,22 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 122346201
       objectReference: {fileID: 0}
+    - target: {fileID: 4064060239167638792, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: missedSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: c3672eb151202c747a66daec1c50882a, type: 3}
+    - target: {fileID: 4064060239167638792, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: perfectSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: c3672eb151202c747a66daec1c50882a, type: 3}
+    - target: {fileID: 4550201219978426054, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: missedSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: d8728a21781e80c4ba03e2f8a4049b14, type: 3}
+    - target: {fileID: 4550201219978426054, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
+      propertyPath: perfectSpaw
+      value: 
+      objectReference: {fileID: 21300000, guid: d8728a21781e80c4ba03e2f8a4049b14, type: 3}
     - target: {fileID: 6159937340726640921, guid: 271d7efba8541084abd18cc6a653252c, type: 3}
       propertyPath: m_SortingLayer
       value: 2

@@ -19,6 +19,8 @@ public class SpawPointEffector : MonoBehaviour
     [SerializeField] private Spark sparkBadPref;
     [SerializeField] private Spark sparkGoodPref;
     [SerializeField] private GameObject heartPref;
+    
+    [SerializeField] private AudioClip[] weldClips;
 
     public GameObject container;
     private Camera mainCamera;
@@ -76,6 +78,7 @@ public class SpawPointEffector : MonoBehaviour
 
     public void SpawClick(Vector2 ClickPosition)
     {   
+        // SFXManager.instance.PlayRandomSFXClip(weldClips, transform);
         float distanceFromClick = float.MaxValue;
         GameObject closestSpawPoint = null;
         foreach (GameObject spawPoint in spawPointy)
@@ -91,7 +94,7 @@ public class SpawPointEffector : MonoBehaviour
         closestSpawPoint.GetComponent<SpawPoint>().Spaw(distanceFromClick);
         distances.Add(distanceFromClick);
 
-        if(distanceFromClick< 1)// to bedzie zmieniaæ potems
+        if(distanceFromClick< 1)// to bedzie zmienia potems
         {
 
             spawPointy.Remove(closestSpawPoint);
